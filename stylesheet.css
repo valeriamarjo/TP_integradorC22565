@@ -1,0 +1,164 @@
+header{
+    background-color: rgb(85, 169, 192);
+    text-align:center;
+    padding: 45px;
+    background-image: url(./imgs/paisaje.jpg);
+    background-size: cover;
+    overflow-wrap: break-word;
+  
+   }
+
+body{
+    background-color: rgb(126, 129, 129);
+    max-width: 90%;
+    margin: 0% 5%;
+    overflow-wrap: break-word;
+}
+
+
+.nav-btnlnk{
+    display:inline-block;
+    background-color:rgb(20, 185, 185);
+    border:rgb(154, 215, 218);
+    color:azure;
+    border-radius: 12px;
+    margin-right: 9px; margin-left: 9px;
+    box-shadow:  12px 4px 0 rgb(25, 95, 89); 
+    padding: 20px 25px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-btnlnk:hover{
+    background-color:cadetblue;
+
+}
+nav{
+    background-color: rgb(11, 163, 168);
+    padding: 10px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.Hambur-Boton{
+    background-color:rgb(20, 185, 185);
+    border: 2px solid rgb(61, 110, 112);
+    color:azure;
+    border-radius: 12px;
+    margin-right: 9px; margin-left: 9px;
+    box-shadow:  12px 4px 0 rgb(25, 95, 89); 
+    padding: 20px 25px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 16px;
+    display: none;
+
+}
+
+@media (max-width: 600px) {
+    .nav{
+        flex-direction:column;
+    }
+    .nav-btnlnk{
+        margin-bottom: 5px;
+    }
+    .Hambur-Boton{
+        display: inline-block;
+    }
+    .ocultar{
+        display: none;
+    }
+  
+    article{
+        font-size: x-small;
+    }
+    aside{
+        display: none;
+    }
+}
+
+#gale {
+            width: 75%;
+            height:50%;
+                    }
+ #gale > img {
+            border: 2px solid black;
+            height: 75%;
+            width: 60%;
+                }
+h1{
+    color: rgba(248, 246, 246, 0.795);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 18px 8px 0px rgba(0,0,0,0.2);
+    letter-spacing: 25px;
+    font-size:xx-large;
+   
+}
+h2{
+    font-family: fantasy;
+    color: cadetblue;
+    font-display:fallback;
+}
+h3{
+    font-family: Verdana;
+    background-color: rgb(11, 114, 114);
+    font-style: oblique;
+    color:cadetblue;
+}
+
+h4{
+    background-color: rgb(161, 159, 159);
+    color:rgb(33, 32, 32);
+    text-align: left;
+    padding: 5px 15px;
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-family: Tahoma;
+}
+
+aside{
+    max-width: 23%;
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+p{
+    background-color: rgb(150, 201, 207);
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0px 0px 15px 0px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+section{
+    max-width: 70%;
+    padding: 2px;
+    display: inline-block;
+}
+
+article{
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 66, 66);
+    padding: 15px;
+    text-align: justify;
+}
+
+div{
+    background-color: rgb(195, 226, 226);
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+address{
+    color: rgb(204, 207, 208);
+}

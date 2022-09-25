@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Hotel ITO</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+    <header>
+        <h1>HOTEL ITO</h1>
+    </header>
+   
+    <nav>
+        <nav-btnlnk>
+        <button class="Hambur-Boton" onclick="accion()"> Menú</button>
+        <a href="Servicios.html" class="nav-btnlnk ocultar"> Servicios</a>
+        <a href="Habitaciones.html" class="nav-btnlnk ocultar"> Habitaciones</a>
+        <a href="Galeria.html" class="nav-btnlnk ocultar"> Galería</a>
+        <a href="Reservas.html"class="nav-btnlnk ocultar"> Reservas</a>
+        <a href="Contactos.html"class="nav-btnlnk ocultar"> Contacto</a>
+    </nav-btnlnk>
+    </nav>
+    
+    <div>
+        <aside>
+            <div id="gale">
+                <img src= "imgs/exter.jpg">
+                <img src= "imgs/piscinatumbona2.jpg">
+                <img src= "imgs/solarium.jpg">
+                <img src="imgs/cuarto1.jpg">
+              </div>
+        </aside>
+    <section>
+        <article>
+            <w-100>
+            <h3>BIENVENIDOS</h3>
+            Sean Bienvenidos a HOTEL ITO! Le abrimos la puerta a sueño. Un sitio donde poder relajarse, disfrutar
+            y olvidarse de la rutina y relajarse. Donde disfrutar siempre sin importar el clima.
+        </w-100>
+    </article>
+        <article>
+            <h3>CONFORT</h3>
+            Contamos con una infraestructura de primera, donde podrá satisfacer todas sus necesidades
+            Piscina cubierta y piscina externa climatizada. Solarium y reposreas. Restaurante 24hs, cuartos desde
+            doble hasta
+            cuadruples, habitaciones familiares y apartamentos.
+            Juegoteca,biblioteca y Actividades familiares.
+            Parrillas, metegol, pingpong y pool de uso libre.
+            Spa y salón de masajes.
+            Contando además con la calidez de ser atendido por sus dueños
+        </article>
+    </section>
+    </div>
+    <footer>
+        top servicios habitaciones galeria reservas contacto
+        www.hotelito.com.ar - Argentina
+        </footer>
+    <script>
+        function accion() {
+            console.log('está funcionando mi botón');
+            var ancla = document.getElementsByClassName('nav-btnlnk');
+            for (var i = 0; i <ancla.length; i++){
+                ancla[i].classList.toggle('ocultar');
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
